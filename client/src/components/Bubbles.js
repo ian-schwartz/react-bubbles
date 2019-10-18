@@ -35,7 +35,7 @@ const Bubbles = ({ colors }) => {
                       key={key}
                       cx={x}
                       cy={y}
-                      r={r}
+                      r={20}
                       fill={colors[i].code.hex}
                     />
                   );
